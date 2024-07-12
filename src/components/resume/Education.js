@@ -20,7 +20,8 @@ const Education = () => {
             title="B.Tech in Computer Science & Engineering"
             subTitle="Ahmedabad University (2020 - 2024)"
             result=""
-            des="The training provided by universities in order to prepare people to work in various sectors of Technology."
+            des="Pursuing a Bachelor of Technology in Computer Science & Engineering, focusing on software development, data structures, algorithms, and artificial intelligence. This program emphasizes practical skills through hands-on projects, internships, and collaboration with industry professionals, preparing graduates for diverse roles in the technology sector."
+
           />
           <ResumeCard
             title="11 & 12 Science"
