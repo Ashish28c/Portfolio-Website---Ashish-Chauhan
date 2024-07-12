@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import {logo} from "../../assets/index"
 import { navLinksdata } from '../../constants';
 
@@ -75,16 +75,24 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
-                </div>
+            <span className="bannerIcon" link="www.google.com">
+            <a href="https://www.linkedin.com/in/ashish-chauhan-49b4281ba/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedinIn />
+            </a>
+            </span>
+
+            <span className="bannerIcon">
+            <a href="https://github.com/Ashish28c" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
+            </a>
+            </span>
+
+            <span className="bannerIcon">
+            <a href="https://www.instagram.com/ashish_2882/" target="_blank" rel="noopener noreferrer">
+            <FaInstagram />
+            </a>
+            </span>
+          </div>
               </div>
               <span
                 onClick={() => setShowMenu(false)}
